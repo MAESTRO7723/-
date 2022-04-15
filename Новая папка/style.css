@@ -1,0 +1,66 @@
+html {
+  font-family: "Comfortaa", cursive;
+}
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  text-align: center;
+  background-color: #9e3174;
+  padding: 50px;
+  padding-left: 35%;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+article {
+  background-color: rgb(209, 123, 88);
+  padding: 8px;
+}
+article p {
+  width: 75%;
+  margin-left: 0%;
+}
+.mc1 {
+  display: block;
+}
+h1 {
+  text-align: center;
+}
+a {
+  width: 100px;
+  display: flex;
+  padding: 10px;
+  margin: 1px;
+  text-decoration: none;
+  color: black;
+}
+.maincontent {
+  flex: 10%;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  background-color: rgb(211, 135, 49);
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article div {
+  margin-left: 7%;
+}
+article div p {
+  font-size: 125%;
+}
+@media (max-width: 550px) {
+  .sm-dev {
+    width: 100%;
+    order: -1;
+  }
+}
